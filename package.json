@@ -1,0 +1,14 @@
+{
+  "architect": {
+    "app": "queue-example",
+    "queues": {
+      "my-queue": { "src": "." }
+    }
+  },
+  "scripts": {
+    "start": "arc-deploy --dry-run"
+  },
+  "dependencies": {
+    "@architect/deploy": "^5.0.3"
+  }
+}
